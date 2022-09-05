@@ -7,9 +7,9 @@ The analysis is conducted to demonstrate to an investor that a surf and ice crea
 ## 2. Results
 The table 1 is the statistics of the data and presents general views of the temperature in Oahu as follows:
 
-### * The average temperature in Oahu was higher in June at 74.94 F than in December at 71.04 F.
-### * The median of the temperature was also higher in June at 75.00 F than in December at 71.00 F.
-### * Temperature in Oahu varied more widely in December from 56.00 F to 83.00 F than in June from 64.00 F to 85.00 F.
+* #### The average temperature in Oahu was higher in June at 74.94 F than in December at 71.04 F.
+* #### The median of the temperature was also higher in June at 75.00 F than in December at 71.00 F.
+* #### Temperature in Oahu varied more widely in December from 56.00 F to 83.00 F than in June from 64.00 F to 85.00 F.
 
 #### (Table 1)
 ![](https://github.com/Ryoichi2022/surfs_up/blob/main/Oahu_temperature.png)

@@ -1,43 +1,32 @@
-# surfs_up
-
 Challenge 11
-# UFO Sightings Search
+# Surf's up - Oahu Island Temperature Analysis
 
-## 1. Overview of project
-Dana, a data journalist, is trying to develop an HTML page that would contain an article and a table of data related to UFO sightings. So far, the sighting information has been summarized in a JavaScript file. Through the project, the table will be incorporated into the HTML page with filters so that users can easily manipulate the sighting data and see the results on the page.
-
+## 1. Overview of analysis
+The analysis is conducted to demonstrate to an investor that a surf and ice cream shop business is sustainable throughout the year in the island of Oahu, Hawaii. From a weather dataset, which contains data from 2010 through 2017, temperature data will be collected and analyzed for the months of June and December in Oahu, where the shop is going to open.
 
 ## 2. Results
-### How to use filter
-The sighting data will be tuned as follows using the search criteria such as date, city, state, country, and shape. Either single criterion or multiple criteria can be applied by entry of values in blank boxes, which are filled with grey placeholders. An example of value entry is presented below as Picture 1.
+The table 1 is the statistics of the data and presents general views of the temperature in Oahu as follows:
 
-### General instructions
-When you enter a value in the Enter Date box, it needs to be in mm/dd/yyyy format. As shown in the picture, ‘0’ is not necessary in the ten’s place in the case that month or day is a single digit. Also, text entry is case sensitive, and only lower cases will be used. If you would like to see sightings in the United States, the entry needs to be ‘us’ in the Enter a Country box.
+### * The average temperature in Oahu was higher in June at 74.94 F than in December at 71.04 F.
+### * The median of the temperature was also higher in June at 75.00 F than in December at 71.00 F.
+### * Temperature in Oahu varied more widely in December from 56.00 F to 83.00 F than in June from 64.00 F to 85.00 F.
 
-#### (Picture 1) Value entry example
-![](https://github.com/Ryoichi2022/UFOs/blob/main/Picture_1.png)
-
-### Individual entry box
-#### * Date
-The entire table includes sightings during the period from January 1, 2010 (1/1/2010) through January 13, 2010 (1/13/2010). If a date outside the period is entered, nothing will be displayed on the page.
-
-#### * City
-Various cities are available as entry option. Please be sure to type it only with lower cases.
-
-#### * State
-You are supposed to enter the state value using the regular abbreviation of the states in the United States as well as Canada. Currently, 35 U.S. states are available to fill in the box including ca, fl, and ma.
-
-#### * Country
-The only values are ‘us’ for the United States and ‘ca’ for Canada.
-
-#### * Shape
-16 specific shapes plus ‘other’ and ‘unknown’ can be used for the Enter a Shape box. The top three shapes in the table are light, triangle, and sphere.
-
+#### (Table 1)
+![](https://github.com/Ryoichi2022/surfs_up/blob/main/Oahu_temperature.png)
 
 ## 3. Summary
-### Drawback of the page
-* The page only allows users to manipulate the sighting information by entering criteria one after another. Users will not be able to save the search result directly from the page. It would be convenient if the result can be downloaded into the user’s device in any format.
+### Summary of analysis
+The following are the high-level summaries of the analysis:
 
-### Recommendations for further development
-* Each sighting contains a comment to describe the object, or UFO, more specifically, such as colors or how it looked like. Setting a key word filter over the comments will be useful and add value to users.
-* There are only 111 UFO sighting reports in the page currently, and they are limited to the United States and Canada. It would be recommended that more data be gathered not only from these two countries but from all over the world. Then, the page will be more attractive.
+* Mild temperature
+In the island of Oahu, the temperature seems mild throughout the year, as it is generally considered, based on the average temperatures in June and December. The difference in these temperatures is approximately 4 F. The island will offer a favorable environment for the surf and ice cream shop.
+
+* Change in temperature
+On the other hand, it would be worth paying attention to the fact that the temperature in December changed from the lowest of 56.00 F up to 83.00 F at highest. The standard deviation proves that temperature in Oahu will likely change drastically in December. Temperature of 56 F might keep people away from both surfing and ice cream.
+
+### Additional queries
+* Analysis in further detail
+The temperature data could be further analyzed by station and year. Currently, analysis has been conducted over multiple years at various locations all together. An analysis by year will provide view of whether the climate is similar year over year without abnormality. Additionally, temperature by station will be helpful when a decision is made regarding the shop location.
+
+* Other relevant data to decision-making
+Not only temperature but other weather conditions will affect the surf and ice cream shop business in Oahu. People do not want to surf in a rain even if the temperature is high. To the contrary, people would like to go surfing under a chilly weather if the seawater temperature is mild. Precipitation and seawater temperature will be such conditions that would provide insights in depth.
